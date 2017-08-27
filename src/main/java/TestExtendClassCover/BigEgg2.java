@@ -28,4 +28,15 @@ public class BigEgg2 extends Egg2 {
         Egg2 e2 = new Egg2();
         e2.g();
     }
+
+    /**
+     * 书上的输出 p213
+     * Egg2.Yolk()
+     * New Egg2()
+     * Egg2.Yolk()
+     * BigEgg2.Yolk()
+     * BigEgg2.Yolk.f()
+     */
+
+
 }
