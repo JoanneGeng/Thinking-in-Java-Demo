@@ -11,3 +11,4 @@
 8，TestStrategy---简单策略模式
 9, TestExtendClassCover---内部类覆盖
     p213 有出入
+10，TestPartExtenalClass---局部内部类
