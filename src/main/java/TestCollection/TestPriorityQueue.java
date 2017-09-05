@@ -57,10 +57,9 @@ public class TestPriorityQueue {
         System.out.println(characterPriorityQueue);
 
         /**
-         * 对象在队列中进行排序，但是不记得在哪儿看过好像使用asList的时候是需要重写的
-         * 应该是用来辅助理解队列的
-         * 现在对list排序，我使用得比较多的是Collections.sort()
-         *
+         * 对象在队列中进行排序
+         * 使用工具类Arrays.asList()把数组转换成集合时，不能使用其修改集合相关的方法，
+         * 它的add/remove/clear方法会抛出UnsupportedOperationException异常
          */
 
 
